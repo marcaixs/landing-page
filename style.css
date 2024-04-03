@@ -1,24 +1,51 @@
 body{
-
+    
 }
 
 header, .hero{
     background-color: #1f2937;
+    padding: 20px 200px
 }
 
 header{
     display:flex;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
     
 }
 
 .logo{
     font-size: 24px;
-    color: #f9faf8
+    color: #f9faf8;
 }
 
 a{
     font-size: 18px;
     color: #e5ebe7;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 200px;
+    max-height: 300px;
+}
+
+.hero h2{
+    color: #f9faf8;
+    font-weight: extra-bold;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.hero p{
+    color: #f9faf8;
+    
+}
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 12px;
+    border: 2px solid #f9faf8;
+    padding: 5px 10px;
 }
